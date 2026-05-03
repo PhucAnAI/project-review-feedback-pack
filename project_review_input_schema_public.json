@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public Project Review Input Schema",
+  "type": "object",
+  "required": [
+    "project_id",
+    "data_classification",
+    "project_summary",
+    "review_context",
+    "evidence_status",
+    "working_inputs",
+    "review_status"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "data_classification": {
+      "type": "string",
+      "const": "PUBLIC_FAKE_SAMPLE"
+    },
+    "project_summary": {
+      "type": "object",
+      "required": [
+        "project_name",
+        "project_category",
+        "stage",
+        "expected_output"
+      ],
+      "properties": {
+        "project_name": {
+          "type": "string"
+        },
+        "project_category": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "expected_output": {
+          "type": "string"
+        }
+      }
+    },
+    "review_context": {
+      "type": "object",
+      "required": [
+        "review_type",
+        "target_review_period"
+      ],
+      "properties": {
+        "review_type": {
+          "type": "string"
+        },
+        "target_review_period": {
+          "type": "string"
+        },
+        "review_owner_type": {
+          "type": "string"
+        }
+      }
+    },
+    "evidence_status": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "working_inputs": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "review_status": {
+      "type": "object",
+      "required": [
+        "facts_verified",
+        "assumptions_used",
+        "missing_items",
+        "preliminary_status"
+      ],
+      "properties": {
+        "facts_verified": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assumptions_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preliminary_status": {
+          "type": "string",
+          "enum": [
+            "READY_FOR_REVIEW",
+            "READY_WITH_CONDITIONS",
+            "PENDING_EVIDENCE",
+            "NOT_READY"
+          ]
+        }
+      }
+    }
+  }
+}

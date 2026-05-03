@@ -1,0 +1,49 @@
+{
+  "project_id": "FAKE_PROJECT_001",
+  "data_classification": "PUBLIC_FAKE_SAMPLE",
+  "project_summary": {
+    "project_name": "Sample Review Project",
+    "project_category": "generic_project",
+    "region": "sample_region",
+    "stage": "early_review",
+    "expected_output": "review_readiness_note"
+  },
+  "review_context": {
+    "review_type": "project_readiness_review",
+    "target_review_period": "FY2026_Q4_FAKE",
+    "review_owner_type": "sample_team"
+  },
+  "evidence_status": {
+    "source_document_status": "partial_information",
+    "approval_status": "requires_verification",
+    "dependency_status": "unknown",
+    "third_party_status": "not_provided",
+    "quality_status": "indicative_only"
+  },
+  "working_inputs": {
+    "input_a": 100,
+    "input_b": 250,
+    "input_c": 30,
+    "input_quality": "sample_only"
+  },
+  "review_status": {
+    "facts_verified": [
+      "sample_project_category",
+      "sample_stage",
+      "sample_review_type"
+    ],
+    "assumptions_used": [
+      "input_a",
+      "input_b",
+      "input_c"
+    ],
+    "missing_items": [
+      "source_document_evidence",
+      "approval_evidence",
+      "dependency_evidence",
+      "third_party_confirmation",
+      "quality_review_note"
+    ],
+    "preliminary_status": "PENDING_EVIDENCE"
+  }
+}
