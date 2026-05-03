@@ -53,6 +53,19 @@ Good-fit collaboration areas:
 - Automate repetitive finance or review processes by department
 - Turn scattered documents into an evidence-first review workflow
 
+## Free Initial Consultation
+
+I am open to a free initial consultation for founders, investors, project owners, and operators who want to clarify a finance, investment review, project FS modeling, M&A screening, or department workflow automation problem.
+
+The free consultation is intended to:
+
+- understand the problem type
+- identify missing information
+- suggest a safe first review structure
+- clarify whether a deeper private engagement is useful
+
+Please do not post private records, client names, private figures, access material, or private attachments in public GitHub issues. Start with a public-safe problem description only.
+
 ## What We Want Feedback On
 
 Please comment on:
@@ -115,4 +128,4 @@ A review workflow should not mix verified facts with assumptions. If evidence is
 
 ## Collaboration Note
 
-If you want help with CFO review, project FS modeling, investment analysis, M&A screening, or department workflow automation, open a public-safe inquiry or connect privately. Public comments should describe the problem type only, not the private facts.
+If you want help with CFO review, project FS modeling, investment analysis, M&A screening, or department workflow automation, open a public-safe inquiry or connect privately for a free initial consultation. Public comments should describe the problem type only, not the private facts.

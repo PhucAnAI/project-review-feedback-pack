@@ -24,6 +24,10 @@ It does not include private client information, live project records, formulas, 
 I am looking for comments from CFOs, investors, analysts, operators, data people, and automation builders:
 
 What fields, controls, or validation rules should exist before a project moves to serious review?
+
+I am also open to a free initial consultation for founders, investors, project owners, and operators who want to clarify a finance, project FS, investment review, M&A, or department automation problem.
+
+Please keep public comments safe: problem type only, no private records or private figures.
 ```
 
 ## LinkedIn Draft - Partner CTA
@@ -44,6 +48,10 @@ separate FACT, ASSUMPTION, RISK, MISSING ITEMS, and CONDITIONS before any recomm
 I published a public fake-data feedback pack to invite peer review on the workflow structure.
 
 If you have seen project reviews fail because data, assumptions, and risks were mixed together, I would value your comment.
+
+I am also offering a free initial consultation for suitable founders, investors, project owners, and operators. The first conversation is to understand the problem, identify missing information, and suggest a safe first review structure.
+
+No private records or private figures should be shared publicly.
 ```
 
 ## GitHub Discussion Draft
@@ -107,6 +115,8 @@ Question:
 What field or validation rule would you add before allowing a project to move to the next review stage?
 
 No live project material is included. This is for public learning and peer review only.
+
+I am open to a free initial consultation for suitable founders, investors, project owners, and operators. Start with a public-safe problem description only.
 ```
 
 ## LinkedIn Draft - Short Version
@@ -120,6 +130,8 @@ What information must be mandatory before a project moves from "interesting" to 
 
 I am especially interested in fields that separate:
 FACT vs ASSUMPTION vs RISK vs MISSING ITEMS.
+
+I am also open to a free initial consultation for suitable finance, project review, investment, M&A, or automation problems.
 ```
 
 ## Reply Template
